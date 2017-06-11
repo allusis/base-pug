@@ -1,7 +1,5 @@
-# slds-pug
-
-## What is it?
-A collection of mixins and things to keep the markup for your prototypes that are built on SLDS nice, dry, and easy to maintain. If not yours, certainly mine. 
+# SLDS PUG
+A collection of mixins to keep the markup for your prototypes that are built on SLDS nice, dry, and easy to maintain. 
 
 ## In progress:
 - Input form element mixins.
