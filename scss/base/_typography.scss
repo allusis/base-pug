@@ -1,0 +1,80 @@
+h1 {
+	font-size:32px;
+	@include font-semibold;
+}
+h2 {
+	font-size:24px;
+	@include font-semibold;
+}
+h3 {
+	font-size:20px;
+	@include font-semibold;
+}
+h4 {
+	font-size:18px;
+	@include font-semibold;
+}
+h5 {
+	font-size:16px;
+	@include font-semibold;
+}
+h6 {
+	font-size:14px;
+	@include font-semibold;
+	text-transform:uppercase;
+}
+
+strong {
+	@include font-semibold;
+}
+
+label {
+	font-weight:$weight-semibold;
+	color:#777;
+}
+
+.underline {
+	text-decoration:underline
+}
+
+.txt-italic {
+	font-style:italic;
+}
+
+.txt-reset {
+	font-weight:normal;
+	line-height:1;
+}
+
+.txt-uppercase {
+	text-transform:uppercase;
+}
+
+.txt-small {
+	font-size:85%;
+}
+
+.highlight {
+	@include font-semibold;
+	display:inline-block;
+	background:rgba(yellow,0.4);
+}
+
+.txt-intro {
+	font-size:16px;
+	padding-bottom:$gap;
+}
+
+.txt-gray {
+	color:$text-medium;
+}
+
+.color-error {
+	color:$danger;
+}
+
+.color-success {
+  color:$success;
+}
+
+

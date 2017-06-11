@@ -1,0 +1,60 @@
+//-- Debug
+$debugger: false;
+
+
+//-- Border radius
+$border-radius-sm:          3px;
+$border-radius:             4px;
+$border-radius-md:          8px;
+$border-radius-lg:          15px;
+$border-radius-round:       50%;
+
+
+//-- Grid
+$grid-gutter-width:         30px;
+$screen-xs:                 480px;
+$screen-sm-min:             767px;
+$screen-sm:                 768px;
+$screen-sm-ls:              1024px;
+$screen-md:                 1025px;
+$screen-lg:                 1200px;
+$screen-xl:                 1480px;
+$screen-xl-min:             $screen-xl - 1px;
+
+//--- Spacing
+$gap-xs:                    6px;
+$gap-sm:                    12px;
+$gap:                       24px;
+$gap-md:                    36px;
+$gap-lg:                    48px;
+
+
+//-- Typography
+$font-regular:              "Open Sans", sans-serif;
+$font-light:                $font-regular;
+$font-semibold:             $font-regular;
+$font-bold:                 $font-regular;
+$font-size-base:            14px;
+$line-height-small:         1.5;
+$line-height-base:          1.428571429;
+$line-height-large:         1.3333333;
+$font-family-sans-serif:    $font-regular, sans-serif;
+$weight-regular:            400;
+$weight-light:              300;
+$weight-semibold:           600;
+$weight-bold:               700;
+$font-size-h1:              floor(($font-size-base * 2.6));  // ~36px
+$font-size-h2:              floor(($font-size-base * 2.15)); // ~30px
+$font-size-h3:              ceil(($font-size-base * 1.7));   // ~24px
+$font-size-h4:              ceil(($font-size-base * 1.25));  // ~18px
+$font-size-h5:              $font-size-base;
+$font-size-h6:              ceil(($font-size-base * 0.85));  // ~12px
+
+$sidebar-width:             260px;
+$sidebar-gutter:            $gap;
+
+//--- Footer
+$footer-top-margin:         0;
+$footer-vert-padding:       20px;
+$footer-height:             80px;
+
