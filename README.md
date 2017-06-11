@@ -8,5 +8,6 @@ A collection of mixins and things to keep the markup for your prototypes that ar
 - A file and folder structure that is modular, scaleable, and sensible.
 
 ## To do:
+- Find some contributors for help and sanity checks. 
 - Update gulp to compile Pug and Sass files.
 - Create demo pages so the output can be viewed.
