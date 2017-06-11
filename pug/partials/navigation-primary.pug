@@ -1,0 +1,11 @@
+block PrimaryNavigation
+
+each page,i in PrimaryNavItems
+  else if currentPage === page.url
+    a(class="active", href= page.url + '.html')
+      img(src= 'img/navs/' + page.key + '.svg', alt= page.title)
+      span.title= page.title
+  else
+    a(href= page.url + '.html')
+      img(src= 'img/navs/' + page.key + '.svg', alt= page.title)
+      span.title= page.title

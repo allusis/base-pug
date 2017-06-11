@@ -1,0 +1,40 @@
+block variables
+
+block active_link
+  - var currentPage = 'home';
+
+//include ../includes/global-includes.pug
+
+doctype transitional
+html(lang="en", xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink")
+  head
+    block base_url
+      base(href="")
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+
+    block title
+      title Welcome here!
+
+    include ../partials/stylesheets.pug
+    block stylesheets
+
+  body
+    //include ../partials/loading.pug
+    //include ../partials/mobile-nav.pug
+    block modals
+    .page-container
+      .content-container
+        header.page-header
+          block page-header
+        .content
+          block content
+          block right-sidebar
+      block left-sidebar
+
+    include ../partials/scripts.pug
+
+    block scripts
+
