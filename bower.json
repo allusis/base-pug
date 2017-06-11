@@ -1,0 +1,26 @@
+{
+  "name": "slds-pug",
+  "description": "Pug presents for SLDS components",
+  "main": "index.html",
+  "authors": [
+    "Tony Montemorano"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Pug",
+    "SLDS",
+    "pug"
+  ],
+  "homepage": "https://github.com/allusis/slds-pug",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "salesforce-lightning-design-system": "^2.3.1"
+  }
+}

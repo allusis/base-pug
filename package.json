@@ -4,7 +4,6 @@
   "description": "Pug presents for SLDS components",
   "author": "Tony Montemorano",
   "devDependencies": {
-    "design-system": "git://github.com/salesforce-ux/design-system.git",
     "browser-sync": "2.18.5",
     "gulp": "~3.9.1",
     "gulp-autoprefixer": "3.1.1",
