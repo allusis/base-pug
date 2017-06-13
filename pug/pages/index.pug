@@ -1,5 +1,8 @@
 extends ../layouts/default.pug
 
+block active_link
+  - var currentPage = 'home';
+
 block title
   title Demo
 
@@ -8,6 +11,10 @@ block stylesheets
 block content
   .max-width--lg
     h1 Look at the content!
+
+block sidebar-left
+  nav.sidebar-nav
+    include ../partials/navigation-primary.pug
 
 block scripts
   script.

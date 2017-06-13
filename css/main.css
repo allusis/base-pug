@@ -44,6 +44,8 @@ label { font-weight: 600; color: #777; }
 
 .color-success { color: #93C461; }
 
+.max-width--lg { max-width: 1200px; margin-left: auto; margin-right: auto; }
+
 @media (min-width: 1200px) { .sidebar { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; } }
 
 .sidebar.right { border-radius: 3px; background: white; }
