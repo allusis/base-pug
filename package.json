@@ -1,7 +1,7 @@
 {
   "name": "base-pug",
   "version": "0.0.2",
-  "description": "Pug boilerplate - for me",
+  "description": "A Pug boilerplate - for me",
   "author": "Tony Montemorano",
   "devDependencies": {
     "browser-sync": "2.18.5",
@@ -17,7 +17,5 @@
     "gulp-sass": "3.0.0",
     "gulp-uglify": "~0.1.0"
   },
-  "main": "index.html",
-  "repository": "https://github.com/allusis/base-pug",
-  "license": ""
+  "repository": "https://github.com/allusis/base-pug"
 }
