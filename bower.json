@@ -1,6 +1,6 @@
 {
-  "name": "slds-pug",
-  "description": "Pug presents for SLDS components",
+  "name": "base-pug",
+  "description": "A simple boilerplate for pug projects",
   "main": "index.html",
   "authors": [
     "Tony Montemorano"
@@ -11,7 +11,7 @@
     "SLDS",
     "pug"
   ],
-  "homepage": "https://github.com/allusis/slds-pug",
+  "homepage": "https://github.com/allusis/base-pug",
   "private": true,
   "ignore": [
     "**/.*",
@@ -19,8 +19,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "salesforce-lightning-design-system": "^2.3.1"
-  }
+  ]
 }

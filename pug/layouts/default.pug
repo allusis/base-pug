@@ -1,38 +1,45 @@
+include ../partials/global-includes.pug
+
 block variables
+  - var siteName = 'Base Pug'
+  - var pageName = 'Home'
+  - var pageDescription = 'A simple boilerplate for Pug projects'
+
+block PrimaryNavigation
+  - var PrimaryNavItems = [{'url':'home','title':'Home'}];
 
 block active_link
   - var currentPage = 'home';
-
-include ../includes/global-includes.pug
 
 doctype transitional
 html(lang="en", xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink")
   head
     block base_url
-      base(href="")
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-    meta(name='description', content='')
+    meta(name='description', content= pageDescription)
 
     block title
-      title Welcome here!
+      title= pageName + ' / ' + siteName
 
     include ../partials/stylesheets.pug
     block stylesheets
 
   body
-    //include ../partials/loading.pug
-    //include ../partials/mobile-nav.pug
     block modals
     .page-container
+      header.site-header
+        block page-header
+          include ../partials/site-header.pug
+      nav
+        include ../partials/navigation-primary.pug
       .content-container
-        header.page-header
-          block page-header
-        .content
+        block sidebar-left
+        .page-content
           block content
-          block sidebar-right
-      block sidebar-left
+        block sidebar-right
+      footer.site-footer
 
     include ../partials/scripts.pug
 

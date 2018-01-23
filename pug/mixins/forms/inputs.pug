@@ -1,0 +1,13 @@
+mixin inputText(elementClass, inputID, inputLabel, isRequired, errorID)
+  div(class='input-group ' + elementClass)
+    if isRequired
+      label.form-element-label.required(for= inputID)= inputLabel
+      .input
+        input(id= inputID, type='text', required='', aria-describedby= errorID)&attributes(attributes)
+      .input-help(id= errorID)
+        block
+    else
+      label.form-element-label(for= inputID)= inputLabel
+      .input
+        input(id= inputID, type='text')&attributes(attributes)
+

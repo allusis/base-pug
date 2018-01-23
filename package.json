@@ -1,7 +1,7 @@
 {
-  "name": "slds-pug",
-  "version": "0.0.1",
-  "description": "Pug presents for SLDS components",
+  "name": "base-pug",
+  "version": "0.0.2",
+  "description": "Pug boilerplate - for me",
   "author": "Tony Montemorano",
   "devDependencies": {
     "browser-sync": "2.18.5",
@@ -18,6 +18,6 @@
     "gulp-uglify": "~0.1.0"
   },
   "main": "index.html",
-  "repository": "https://github.com/allusis/slds-pug",
+  "repository": "https://github.com/allusis/base-pug",
   "license": ""
 }

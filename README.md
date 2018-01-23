@@ -1,10 +1,9 @@
-# SLDS PUG
-A modular collection of pug mixins for SLDS components.
+# BASE PUG
+A simple boilerplate for pug projects
 
 ## Features
 - Dry (drop 'em in) mixins
 - Flexible element attributes
-
 
 ## In progress:
 - Input form element mixins.
@@ -13,4 +12,3 @@ A modular collection of pug mixins for SLDS components.
 ## To do:
 - Find some contributors for help and sanity checks.
 - Update gulp to compile Pug and Sass files.
-- Create demo pages so the output can be viewed.
