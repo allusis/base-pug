@@ -11,4 +11,4 @@ A simple boilerplate for pug projects
 
 ## To do:
 - Find some contributors for help and sanity checks.
-- Update gulp to compile Pug and Sass files.
+- Update/Add gulp to compile Pug and Sass files.
