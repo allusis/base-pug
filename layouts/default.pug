@@ -27,6 +27,7 @@ html(lang="en", xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.o
     block stylesheets
 
   body
+    a.skip-link(href="#main-content",z-index="1") Skip to main content
     block modals
     .page-container
       header.site-header
@@ -36,7 +37,7 @@ html(lang="en", xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.o
         include ../partials/navigation-primary.pug
       .content-container
         block sidebar-left
-        .page-content
+        .page-content(tabindex="-1", id="main-content")
           block content
         block sidebar-right
       footer.site-footer
