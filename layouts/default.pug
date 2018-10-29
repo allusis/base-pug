@@ -1,14 +1,11 @@
 include ../partials/global-includes.pug
 
+- var siteName = 'Base Pug'
+- var PrimaryNavItems = [{'url':'home','title':'Home'}];
+
 block variables
-  - var siteName = 'Base Pug'
   - var pageName = 'Home'
   - var pageDescription = 'A simple boilerplate for Pug projects'
-
-block PrimaryNavigation
-  - var PrimaryNavItems = [{'url':'home','title':'Home'}];
-
-block active_link
   - var currentPage = 'home';
 
 doctype transitional
