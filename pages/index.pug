@@ -1,10 +1,9 @@
 extends ../layouts/default.pug
 
-block active_link
+block variables
+  - var pageName = 'Home';
+  - var pageDescription = 'Sample page description';
   - var currentPage = 'index';
-
-block title
-  title New Page
 
 block stylesheets
 
